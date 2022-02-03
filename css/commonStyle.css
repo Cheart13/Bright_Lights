@@ -1,0 +1,42 @@
+body {
+	font-family: "arial";
+
+	color: white;
+
+	background: url('.././resourses/background1.png')no-repeat center;
+	background-color: #1c1b21;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer {
+	margin: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer > div {
+	margin: 20px 0;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+}
+
+.icons div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 10px solid #2c2c2c;
+	background-color: #7a66cc;
+	cursor: pointer;
+}

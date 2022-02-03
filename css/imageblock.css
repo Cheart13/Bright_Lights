@@ -1,0 +1,48 @@
+.image-blok {
+	position: relative;
+	margin: 50px 0;
+	width: 1090px;
+	height: 510px;
+}
+
+.image-blok img {
+	max-width: 255px;
+	margin: 10px;
+}
+.image-blok #img1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.image-blok #img2 {
+	position: absolute;
+	left: 25%;
+	top: 0;
+}
+.image-blok #img3 {
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+.image-blok #img4 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.image-blok #img5 {
+	max-width: 528px;
+	height: 245px;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+}
+
+#sign {
+	color: #7a66cc;
+	font-size: 24px;
+	font-weight: 700;
+	position: absolute;
+	bottom: 20%;
+	left: 38%;
+}
